@@ -9,10 +9,11 @@
 	border: 1px solid grey; 
 	padding: 2px; 
 	position: absolute; 
+	display: block;
 }
 #grid.fried 
 { 
-	caret-color: #d93d29; 
+	caret-color: #d02931; 
 } 
 #water 
 { 
@@ -20,23 +21,20 @@
 } 
 #kitchen_oil 
 { 
-	color: #d93d29; 
+	color: #d02931; 
 } 
-#lives 
+#lives, #currency 
 { 
-	top: 7em; 
-	position: absolute; 
 	border: 1px inset #000; 
-	font-size: 20px; 
+	font-size: 13px; 
 	padding: 0 5px; 
-	font-family: serif;
+	font-family: arial;
+	background: #8d9;
+	width: max-content;
+	display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 5px;
 } 
-#currency 
-{ 
-	top: 8.5em; 
-	position: absolute; 
-	border: 1px inset #000; 
-	font-size: 20px; 
-	padding: 0 5px; 
-	font-family: serif;
-} 
+#lives {
+    margin-right: 0.3em;
+}
