@@ -13,15 +13,19 @@
 }
 #grid.fried 
 { 
-	caret-color: #d02931; 
+    /*caret-color: #656721; */
+	caret-color: #c6c632; 
+	filter: saturate(75%);
 } 
 #water 
 { 
-	color: blue; 
+	color: #8393d2; 
 } 
 #kitchen_oil 
 { 
-	color: #d02931; 
+    /*color: #656721; */
+	color: #cccc16d3; 
+	filter: saturate(75%);
 } 
 #lives, #currency 
 { 
